@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 int main()
@@ -8,5 +9,5 @@ int main()
 		printf("before strcat() : %s\n",a);
 		printf("after strcat() : %s\n",strcat(a,b));
 		printf("after strcat() : %s\n",a);
-		return 0;
+		return EXIT_SUCCESS;
 }
